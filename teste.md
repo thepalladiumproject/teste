@@ -4,8 +4,8 @@
 To compile on Windows, you will need to download and install:
 
 - [Git](https://git-scm.com/downloads/win)
-- [Visual Studio 2022 Community](https://visualstudio.microsoft.com/vs/)
-- [vcpkg](https://github.com/Microsoft/vcpkg)
+- [Visual Studio 2022 Community](https://visualstudio.microsoft.com/vs/) (compiler, make sure to install with the English language pack)
+- [vcpkg](https://github.com/Microsoft/vcpkg) (package manager)
 
 ## 2. Set up vcpkg
 Make sure to follow full installation of vcpkg, per Official Quickstart execute the following in cmd or Powershell:
@@ -48,7 +48,7 @@ After choosing and installing one of the sets of libraries, use the command belo
 ```
 
 ## 5. Build
-1. Open vc17/theforgottenserver.vcxproj. This should launch Visual Studio.
+1. **Open** vc17/theforgottenserver.vcxproj. This should launch Visual Studio.
 
 2. Choose build configuration from the drop downs (Debug or Release and Win32 or x64). For best performance choose Release & x64.
 
