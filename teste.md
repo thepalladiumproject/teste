@@ -10,9 +10,9 @@ To compile on Windows, you will need to download and install:
 ## 2. Set up vcpkg
 Make sure to follow full installation of vcpkg, per Official Quickstart execute the following in cmd or Powershell:
 
-To open Powershell navigate to your desired directory and choose Open PowerShell window here (shift + right click).
+To open Powershell navigate to your desired directory and choose `Open PowerShell window here` (shift + right click).
 
-If you prefer cmd (command prompt) click on your Start windows button or just use the windows key on your keyboard and search for cmd then navigate to your desired directory using cd e.g. you want to have your vcpkg folder on root of your C drive:
+If you prefer `cmd` (command prompt) click on your `Start` windows button or just use the windows key on your keyboard and search for `cmd` then navigate to your desired directory using `cd` e.g. you want to have your vcpkg folder on root of your C drive:
 
 ```
 cd C:\
@@ -52,4 +52,4 @@ After choosing and installing one of the sets of libraries, use the command belo
 
 2. Choose build configuration from the drop downs (Debug or Release and Win32 or x64). For best performance choose Release & x64.
 
-3. To start compiling press F7.
+3. To start compiling **press F7**.
